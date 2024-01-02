@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(227, 229, 231);
+    text-align: center;
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    
+    height: 201px;
+}
+nav {
+    background-color: white;
+    height: 67px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 2;
+}
+.home-logo {
+    height: 37px;
+    width: 160px;
+    background-image: url('/images/flipkart_logo.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -30px;
+}
+.search {
+    display: flex;
+}
+.search-bar-icon {
+    font-size: 1.2rem;
+    height: 40px;
+    width: 44px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-weight: lighter;
+    background-color: rgb(235, 236, 243);
+    padding: 8px 8px 8px 12px;
+    opacity: 0.5;
+}
+.search-bar-input {
+    border: 0px solid;
+    font-size: 1.1rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 40px;
+    width: 500px;
+    padding: 0;
+    background-color: rgba(235, 236, 243, 0.5);
+}
+.search-bar-input:focus {
+    outline-style: none;
+}
+.login {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.login-logo {
+    border: 2px solid black;
+    box-sizing: content-box;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+.login-font {
+    font-size: 1rem;
+}
+.login-arrow {
+    outline: none;
+    border: 0px solid;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.cart-logo {
+    margin: 0 5px;
+}
+.cart-font {
+    font-size: 1rem;
+}
+.seller {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.seller-logo {
+    margin: 0 5px;
+}
+.seller-font {
+    font-size: 1rem;
+}
+.nav-menu {
+    margin: 0 10px;
+}
+
+.header-panel {
+    height: 126px;
+    background-color: white;
+    width: 100%;
+    margin: 8px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    position:absolute;
+    top: 67px;
+}
+
+.panel-box {
+    padding: 16px 16px 16px 24px;
+}
+.panel-span{
+    font-size: 0.9rem;
+    display: block;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.hero {
+    align-self: center;
+    width: 98%;
+    margin: 15px 15px;
+    height: 221px;
+}
+
+.section-1-div {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 8px 15px 0px 15px;
+    background-color: white;
+    padding: 15px;
+}
+.section-1 {
+    height: 264px;
+    background-color: white;
+    margin:  0px 15px 8px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-1-1,.section-1-2,.section-1-3,.section-1-4,.section-1-5,.section-1-6{
+    height: 252px;
+    width: 200px;
+    border: 0.5px solid rgba(90, 88, 88, 0.49);
+    border-radius: 5px;
+    /* padding: 5px 5px 0px 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+.section-1-1-img {
+    background-image: url('/images/section_11.jpg');
+    background-size: cover;
+    width: 198px;
+    height: 198px;
+}
+.section-1-2-img {
+    background-image: url('/images/section_12.jpg');
+    background-size: cover;
+    width: 198px;
+    height: 198px;
+}
+.section-1-3-img {
+    background-image: url('/images/section_13.jpg');
+    background-size: cover;
+    width: 198px;
+    height: 198px;
+}
+.section-1-4-img {
+    display: flex;
+    align-items: center;
+    width: 198px;
+    height: 198px;
+}
+.section-1-5-img {
+    background-image: url('/images/section_15.jpg');
+    background-size: cover;
+    width: 198px;
+    height: 198px;
+}
+.section-1-6-img {
+    background-image: url('/images/section_16.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 198px;
+}
+.section-1 div p {
+    line-height: 2px;
+} 
+.section-1 div div {
+    width: 95%;
+    height: 90%;
+}
+
+.section-2 {
+    height: 622px;
+    margin:8px 15px;
+}
+.section-2-1 {
+    width: 100%;
+    height: 80px;
+    display: felx;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
+.section-2-1-1,.section-2-1-2,.section-2-1-3 {
+    width: 434px;
+    display: inline-block;
+    background-color: white;
+    text-align: start;
+    padding: 10px;
+}
+.section-2-1-1{
+    margin: 0 2px 0 0;
+}
+.section-2-1-2 {
+    margin: 0 2px;
+}
+.section-2-1-3 {
+    margin: 0 0 0 2px;
+}
+
+.section-2-2 {
+    width: 100%;
+    height: 542px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.section-2-2-1,.section-2-2-2,.section-2-2-3 {
+    height: 100%;
+    width: 434px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+.section-2-2-1{
+    margin: 0 4px 0 0;
+}
+.section-2-2-2 {
+    margin: 0 5px;
+}
+.section-2-2-3 {
+    margin: 0 0 0 4px;
+}
+
+.section-2-2-1>div {
+    height: 261px;
+    width: 197px;
+    margin: 5px;
+    border: 1px solid rgba(134, 133, 133, 0.491);
+}
+.section-2-2-1 div p {
+    line-height: 1px;
+}
+.section-2-2-1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+}
+.section-2-2-1 div>p {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.section-2-2-2>div {
+    height: 261px;
+    width: 197px;
+    margin: 5px;
+    border: 1px solid rgba(134, 133, 133, 0.491);
+}
+.section-2-2-2-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+}
+.section-2-2-2 div>p {
+    font-size: 1rem;
+    line-height: 2px;
+    padding: 5px;
+}
+
+.section-2-2-3>div {
+    height: 261px;
+    width: 197px;
+    margin: 5px;
+    border: 1px solid rgba(134, 133, 133, 0.491);
+}
+.section-2-2-3 div p {
+    line-height: 2px;
+}
+.section-2-2-3 div>p {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.section-2-2-3-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-2-2-3-2-text{
+    justify-self: end;
+}
+
+
+footer {
+    height: 260px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.873);
+    padding-top: 30px;
+}
+footer ul li{
+    color: white;
+    list-style: none;
+}
+footer ul p{
+    color: rgba(159, 153, 153, 0.606);
+}
+.footer-div {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.footer-div-div>ul li,p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8rem;
+}
+.hr { 
+    height: 170px;
+    margin-top: 30px;
+    position: relative;
+    left: 30px;
+}
